@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  background: linear-gradient(
+      141.34deg,
+      rgba(104, 81, 255, 0.2) 20.76%,
+      hsla(19, 94%, 74%, 0.34) 75.09%
+    ),
+    linear-gradient(0deg, #fff, #fff);
+  height: 100vh;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  background: linear-gradient(90deg, #3512b2, #d18873);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
